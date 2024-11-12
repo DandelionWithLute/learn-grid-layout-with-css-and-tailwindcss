@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.one {
+  border: 1px solid black;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.two {
+  border: 1px solid black;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.three {
+  border: 1px solid black;
+}
+.four {
+  border: 1px solid black;
+}
+.five {
+  border: 1px solid black;
+}
+.six {
+  border: 1px solid black;
+}
